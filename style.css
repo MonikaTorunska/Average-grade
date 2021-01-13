@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.container {
+  margin: 0 auto;
+  max-width: 400px;
+  width: 100%;
+  background-color: #8c7cbf;
+  padding: 0px 20px;
+}
+
+.title {
+  padding: 20px;
+}
+
+input {
+  width: 100px;
+  margin: 20px;
+}
+
+.subject {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+button {
+    width: 80px;
+    cursor: pointer;
+    padding: 4px 6px;
+    border: 1px solid #000000;
+    text-align: center;
+    margin: 30px 0px;
+    font-weight: 300;
+    border-radius: 5px;
+}
+
+.output {
+  padding: 10px 20px 20px 20px;
+}
